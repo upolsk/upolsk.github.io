@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.header{
+   min-height: 100vh;
+   width: 100%;
+   background-image: url(../images/2.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   background-repeat: no-repeat;
+
+}
+
+footer {
+  text-align: center;
+  margin-top: 9.375em;
+  padding: 0.813em;
+  background-color: #33221c;
+  color: white;
+}
+
+.ff{
+    height: 4.063em;
+    text-align: center;
+    margin-top: 4.563em;
+    padding-top: 0.813em;
+    background-color: #33221c;
+    color: white;
+}
+.footer1
+{
+  margin-top: 0em;
+  margin-left: 0.188em;
+  margin-right: 0.188em;
+  padding:  0.813em;
+  text-align: center;
+  background-color: #33221c;
+  color: white;
+}
+
+
+.rightAside{
+    width: 100%;
+    float: left;
+    font-style: italic;
+}
+nav{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin-bottom: 1.25em;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links
+{
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0.188em 1.25em;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #4d0000;
+    text-decoration: none;
+    font-size: 1.438em;
+    float: left;
+    display:block;
+    padding: 0.938em 0.313em; 
+    text-align: center;
+    text-decoration: none;
+    min-width: 0.625em;
+}
+
+.nav-links ul li a:hover{
+    background-color: #cc5200;
+}
+
+.text-box{
+    width: 70%;
+    color:rgb(61, 34, 34);
+    position: absolute;
+    top: 30%;
+    transform: translate(-5%, -5%); 
+    text-align: center;
+}
+.text-box h1{
+    font-size: 5em;
+}
+
+.text-box h2{
+    font-size: 1.875em;
+    margin-top: 1.25em;
+    margin-left: 12.5em;
+    margin-bottom: 0.625em;
+}
+
+.text-box h3{
+    font-size: 1.25em;
+    margin-left: 25em; 
+}
+
+nav .fa{
+    display: none;
+}
+
+
+.second
+{
+  
+   font-family: sans-serif;
+   background-color: white;
+   font-weight: normal;
+}
+
+.question
+{
+    text-align: center;
+    color: #ff9900;
+}
+
+.intr{
+    
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 0.625em;
+    margin-top: 0.625em;
+    padding-bottom: 0.625em;
+    font-size: 1.25em;
+    text-align: center;
+    line-height: 1.875em;
+    
+}
+
+
+.video2{
+    margin-left: 25%;
+    align-items: center;
+    width: 39.375em;
+}
+
+.h1{
+    font-size: 1.875em;
+    margin-top: 1.25em;
+    margin-bottom: 0.313em;
+    text-align: center;
+    padding: 0.063em;
+    color:#ff5e00;
+    
+}
+ .h2-left{
+    padding-top: 0.625em;
+    padding-bottom: 0.625em;
+    padding-right: 5em;
+    padding-left: 5em;
+    font-size: 1.188em;
+    line-height: 1.563em;    
+ }
+
+ .h2-main{
+    margin-top: 2.188em;
+    padding-left: 14.5em;
+    font-size: 1.188em;
+    line-height: 1.563em;
+ }
+
+#even
+{
+    float: right;
+    padding: 0.063em;
+    margin: 0em 5em;
+}
+
+#odd
+{
+    float: left;
+    padding: 0.063em;
+    margin: 0em 5em;
+}
+
+.audio
+{
+    margin-left: 31.25em;
+    margin-bottom: 1.563em;
+}
+
+.lists
+{
+    margin-left: 8.75em;
+    margin-right: 5em;
+    
+    /* padding: 5px; */
+    font-size: 1.188em;
+    line-height: 1.563em; 
+}
+
+table{
+    height: 60%;
+    width: 60%;
+    margin-left: 17.5em;
+    margin-top: 1.25em;
+    font-size: 0.938em;
+   
+    border: 0.063em solid;
+    color: black;
+}
+
+table, th, td {
+    padding: 0.938em;
+    text-align: left;
+    border: 0.063em solid;
+    border-collapse: collapse;
+    font-size: 0.98em;
+    
+  }
+
+  .first
+  {
+      background-color: red;
+      font-size: 1.188em;
+  }
+
+  .last
+  {
+      background-color: yellowgreen;
+      font-size: 1.188em;
+  }
+
+  .h2-left2{
+    margin-top: -4.375em;
+    padding: 5em;
+    font-size: 1.188em;
+    line-height: 1.563em;    
+ }
+
+ .h2-left3{
+    padding: 0em 2.5em;
+    font-size: 1.188em;
+    line-height: 1.563em;    
+ }
+
+ .photo{
+padding: 1%;
+ width: 82.5em; 
+ height: 31.25em; 
+ }
+
+.mapofkg{
+    padding-top: 1.875em;
+    margin: 0em 17.5em;
+}
+
+.emblemma{
+    margin-bottom: 9.375em ;
+}
+
+.lists2
+{
+    margin-left: 43.75rem;
+    font-size: 1.188em;
+    line-height: 1.563em; 
+}
+.emblemma2{
+    margin-bottom: 5em;
+}
+
+.third{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.placesToVisit
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 0.625em;
+    padding-right: 5em;
+    padding-left: 5em;
+    font-size: 1.188em;
+    line-height: 1.875em;  
+}
+
+.h1a
+{    
+    font-size: 1.875em;
+    margin-top: 1.25em;
+    margin-bottom: 0.938em;
+    text-align: center;
+    padding: 1px;
+    color:#ff5e00;
+}
+
+#evenA
+{
+    float: right;
+    margin-top: 0.938em;
+    margin-bottom: 1.25em;
+    margin-right: 5em;
+    margin-left: 1.25em;;
+    padding: 0.063em;
+}
+
+#oddA
+{
+    margin-top: 0.938em;
+    margin-bottom: 1.25em;
+    margin-left: 5em;
+    margin-right: 2.5em;
+    float: left;
+    padding: 0.063em;
+    /* margin: 0px 80px; */
+}
+
+.h2-right{
+    padding-top: 0.938em;
+    padding-bottom: 0.625em;
+    padding-right: 5em;
+    padding-left: 5em;
+    font-size: 1.15em;
+    line-height: 1.563em;    
+ }
+
+ .fourth{
+	background-color: #f05010;
+	font-family: 'josefin Sans', Sans-serif;
+}
+
+.feedback{
+    margin-top: 0.2em;
+    text-align: center;
+}
+
+.text-center{
+    font-size: larger;
+}
+.radio-inline{
+	margin: 0em 2.5em 1.25em 0em;
+	cursor: pointer;
+}
+
+label{
+	color: #000;
+}
+
+#text{
+	height: 2.5em;
+	border-radius: 0.313em;
+	padding-left: 0.625em;
+	font-size: 0.875em;
+	border: none;
+	width: 100%;
+	color: #000;
+}
+#email{
+	height: 2.5em;
+	border-radius: 0.313em;
+	padding-left: 0.625em;
+	font-size: 0.875em;
+	border: none;
+	width: 100%;
+	color: #000;
+}
+
+#tel{
+	height: 2.5em;
+	border-radius: 0.313em;
+	padding-left: 0.625em;
+	font-size: 0.875em;
+	border: none;
+	width: 100%;
+	color: #000;
+}
+
+
+#message{
+	outline: none;
+	border: none;
+	padding: 0.625em 0em 0em 0.938em;
+	font-size: 1em;
+	color:#000;
+	border-radius: 0.313em;
+	width: 100%
+}
+
+figure {
+  float: left;
+  text-align: center;
+  font-style: italic;
+}
+
+.figure2 {
+    margin-bottom: 1.875em;
+    float: left;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .button
+  {
+    width: 53.5%; 
+    position: absolute; 
+    margin-left: 15%;
+    background-color:rgb(148, 119, 104);
+  }
